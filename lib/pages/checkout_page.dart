@@ -125,45 +125,6 @@ class _CheckOutPageState extends State<CheckOutPage> {
   }
 
   void onPayStripe() {
-    //to make list from object
-//    List<Map<String, dynamic>> playerList = playerData.map((player) {
-//      List<Map<String, dynamic>> assessment =
-//          player.assessmentDataList.map((assessment) {
-//        return {
-//          NetworkParams.ASSESSMENT_CATEGORY_ID: assessment.categoryId,
-//          NetworkParams.EVALUATION: assessment.value.toInt().toString()
-//        };
-//      }).toList();
-//
-//      return {
-//        NetworkParams.PLAYER_ID: player.id,
-//        NetworkParams.ASSESSMENTS: assessment
-//      };
-//    }).toList();
-
-//    List<String> tempList = ["1", "2", "3"];
-//    List<Map<String, dynamic>> playerList1 = tempList.map((e) {
-//      return {
-//        "val": e,
-//      };
-//    }).toList();
-//
-//    //To make jsonobject
-//    Map<String, dynamic> billing_details = {"address": ""};
-//
-//    Map<String, dynamic> paymentMethod = {
-//      "id": "1",
-//      "billing_details": playerList1,
-//      "test": billing_details
-//    };
-//    Map<String, dynamic> body;
-//    body = {
-//      "payment_method": paymentMethod,
-//    };
-//    String jsonObject = json.encode(body);
-//    print("jsontest : " + jsonObject);
-//
-//    Navigator.pushNamed(context, '/home');
 
     if (_formKey.currentState.validate()) {
       _formKey.currentState.save();
