@@ -92,12 +92,12 @@ class PaypalPaymentState extends State<PaypalPayment> {
     int shippingDiscountCost = 0;
     String userFirstName = constant.NAME;
     String userLastName = 'test';
-    String addressCity = 'Ahmedabad';
-    String addressStreet = 'Bodakdev';
-    String addressZipCode = '380054';
+    String addressCity = 'test';
+    String addressStreet = 'test';
+    String addressZipCode = '880056';
     String addressCountry = 'India';
-    String addressState = 'Gujarat';
-    String addressPhoneNumber = '+917990182234';
+    String addressState = 'State';
+    String addressPhoneNumber = '+918866886688';
 
     Map<String, dynamic> params = {
       "intent": "sale",
